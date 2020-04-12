@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    background: #000000;
 }
 
 img {
@@ -9,9 +10,17 @@ img {
 }
 
 .footer {
-    position: fixed;
     Width: 100%;
-    bottom: 0;
+    color: #FFFFFF;
+}
+
+.gray-box {
+    border-radius: 25px;
+    background: #BBBBBB;
+    padding: 20px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #word {

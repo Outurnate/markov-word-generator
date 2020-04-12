@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Markov Word Generator</title>
+    <meta charset="utf-8" />
+    <script src="generator.js"></script>
+    <script src="markov.js"></script>
+    <link rel="stylesheet" type="text/css" href="markov.css" />
+  </head>
+  <body>
+    <div class="gray-box" width="200">
+      <h1>Your word is:</h1>
+      <div>
+        <span id="word"></span>
+        <img id="loader" src="loading.gif" />
+      </div>
+      <p>Get a <a id="regen" href="#">new word</a></p>
+    </div>
+    <p class="footer">
+      <label for="jsonfile">Or choose a different wordlist:</label>
+      <select id="jsonfile">
+        <option value="google-10000-english-no-swears.json">Google word list</option>
+        <option value="dwyl-word-list.json">Dwyl's word list (very large)</option>
+        <option value="arineng-last-names.json">Last names</option>
+        <option value="dominictarr-first-names.json">First names</option>
+      </select>
+    </p>
+  </body>
+</html>
